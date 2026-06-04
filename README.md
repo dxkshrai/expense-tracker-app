@@ -16,6 +16,7 @@ Tobi Tracker is designed to help users manage transactions, monitor spending hab
 - 🔑 Forgot Password Support
 - 💰 Add & Manage Expenses
 - 📊 Spending Statistics & Insights
+- 💳 Wallet Management
 - 👤 User Profile Management
 - ☁️ Cloud Firestore Database
 - 📱 Android & iOS Support
