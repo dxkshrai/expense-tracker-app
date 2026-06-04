@@ -121,6 +121,14 @@ eas build --platform android --profile preview
 
 ---
 
+## 🙏 Acknowledgements
+
+This project was developed as part of my React Native learning journey.
+
+Special thanks to Code With Nomi for the tutorial that provided the initial foundation for the project. Additional features, authentication improvements, UI customizations, branding, and deployment configurations were implemented independently.
+
+---
+
 ## 👨‍💻 Developer
 
 Daksh Rai
