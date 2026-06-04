@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Tobi Tracker",
+    "slug": "expense-tracker-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon1.png",
+    "scheme": "expensetrackerapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      // "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon1.png",
+        "backgroundColor": "#000000"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.w4rlord.expensetrackerapp"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "android": {
+            "image": "./assets/images/splash-icon.png",
+            "imageWidth": 76
+          }
+        }
+      ],
+      "expo-image",
+      "@react-native-community/datetimepicker"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9bfe9be7-335f-4907-b4ef-b9a8a455bb5d"
+      }
+    }
+  }
+}
